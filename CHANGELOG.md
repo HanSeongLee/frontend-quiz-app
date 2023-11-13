@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## 1.0.0 (2023-11-13)
+
+
+### ✨ Features
+
+* add Icon component ([3e34603](https://github.com/HanSeongLee/frontend-quiz-app/commit/3e34603a4daafffc191c61f687bc81f3f8482231))
+* add Rubik font ([88b6b13](https://github.com/HanSeongLee/frontend-quiz-app/commit/88b6b133a6c9bf178148e67e1438dd04cd0a30b3))
+
+
+### 📝 Docs
+
+* add color palettes ([eb9975f](https://github.com/HanSeongLee/frontend-quiz-app/commit/eb9975f3b0305f4cbdc351c9b5e8b9634bd32e24))
+
 ## [1.0.2](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.0.1...v1.0.2) (2023-11-11)
 
 

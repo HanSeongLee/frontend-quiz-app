@@ -5,7 +5,7 @@ import { IconName, ICONS } from 'constants/Icons';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     name: IconName;
-    size?: 'small' | 'medium' | 'large';
+    size?: 'small' | 'medium' | 'large' | 'xlarge';
 }
 
 const Icon: React.FC<IProps> = ({ name, size='small', className, ...props }) => {
@@ -14,6 +14,7 @@ const Icon: React.FC<IProps> = ({ name, size='small', className, ...props }) => 
             [styles.small]: size === 'small',
             [styles.medium]: size === 'medium',
             [styles.large]: size === 'large',
+            [styles.xlarge]: size === 'xlarge',
         }, className)}
              {...props}
         >

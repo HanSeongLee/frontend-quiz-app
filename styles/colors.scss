@@ -1,0 +1,17 @@
+:root {
+  --color-purple: #A729F5;
+  --color-grey-navy: #626C7F;
+  --color-navy: #3B4D66;
+  --color-dark-navy: #313E51;
+  --color-light-grey: #F4F6FA;
+  --color-light-bluish: #ABC1E1;
+  --color-green: #26D782;
+  --color-red: #EE5454;
+  --color-pure-white: #FFFFFF;
+
+  --theme-color-primary: var(--color-purple);
+  --theme-color-secondary: var(--color-dark-navy);
+  --theme-color-neutral: var(--color-light-grey);
+  --theme-color-success: var(--color-green);
+  --theme-color-danger: var(--color-red);
+}

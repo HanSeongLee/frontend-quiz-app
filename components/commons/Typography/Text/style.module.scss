@@ -1,0 +1,33 @@
+@import "styles/typography";
+
+.default {
+  color: var(--theme-color-neutral);
+}
+
+.secondary {
+  color: var(--theme-color-secondary);
+}
+
+.danger {
+  color: var(--theme-color-danger);
+}
+
+.small {
+  @include BodyS;
+}
+
+.medium {
+  @include BodyM;
+}
+
+.large {
+  @include HeadingS;
+}
+
+.display {
+  @include Display;
+}
+
+.strong {
+  font-weight: 500;
+}

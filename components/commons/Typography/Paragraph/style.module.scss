@@ -1,0 +1,9 @@
+@import "styles/typography";
+
+.small {
+  @include BodyS;
+}
+
+.medium {
+  @include BodyM;
+}

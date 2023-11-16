@@ -1,0 +1,37 @@
+@import "styles/typography";
+
+.button {
+  @include HeadingS;
+
+  min-width: 327px;
+  min-height: 56px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+
+  @include media(">tablet") {
+    min-width: 528px;
+    min-height: 92px;
+  }
+
+  &.primary {
+    background: var(--theme-color-primary);
+    color: var(--color-pure-white);
+    border-radius: 12px;
+    box-shadow: 0 16px 40px 0 rgba(143, 160, 193, 0.14);
+    padding: 12px;
+
+    @include media(">tablet") {
+      border-radius: 24px;
+      padding: 32px;
+    }
+
+    @include media(">desktop") {
+      transition: opacity 0.3s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

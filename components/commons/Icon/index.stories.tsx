@@ -21,3 +21,11 @@ export const Default: Story = {
         size: 'small',
     },
 };
+
+export const Responsive: Story = {
+    args: {
+        name: IconName.ACCESSIBILITY,
+        size: 'medium',
+        responsive: true,
+    },
+};

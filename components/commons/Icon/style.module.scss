@@ -1,23 +1,65 @@
+@import "styles/utils";
 
 .icon {
 
+  @mixin size($width, $height) {
+    width: $width;
+    height: $height;
+  }
+
+  @mixin small {
+    @include size(16px, 16px);
+  }
+
+  @mixin medium {
+    @include size(24px, 24px);
+  }
+
+  @mixin large {
+    @include size(32px, 32px);
+  }
+
+  @mixin xlarge {
+    @include size(40px, 40px);
+  }
+
   &.small {
-    width: 16px;
-    height: 16px;
+    @include small;
   }
 
   &.medium {
-    width: 24px;
-    height: 24px;
+    @include medium;
+
+    &.responsive {
+      @include small;
+
+      @include media(">tablet") {
+        @include medium;
+      }
+    }
   }
 
   &.large {
-    width: 32px;
-    height: 32px;
+    @include large;
+
+    &.responsive {
+      @include medium;
+
+      @include media(">tablet") {
+        @include large;
+      }
+    }
   }
 
   &.xlarge {
-    width: 40px;
-    height: 40px;
+    @include xlarge;
+
+    &.responsive {
+      @include large;
+
+      @include media(">tablet") {
+        @include xlarge;
+      }
+    }
   }
 }

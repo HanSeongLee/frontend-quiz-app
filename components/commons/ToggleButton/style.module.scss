@@ -1,0 +1,47 @@
+@import "styles/utils";
+
+.toggleButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  .icon {
+    cursor: pointer;
+  }
+
+  .toggleButton {
+    position: relative;
+    width: 32px;
+    height: 20px;
+    background-color: var(--theme-color-primary);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+
+    @include media(">tablet") {
+      width: 48px;
+      height: 28px;
+    }
+
+    &::before {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 12px;
+      height: 12px;
+      background-color: var(--color-pure-white);
+      border-radius: 50%;
+      transition: transform 0.3s;
+      content: "";
+
+      @include media(">tablet") {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    &.on::before {
+      transform: translateX(100%);
+    }
+  }
+}

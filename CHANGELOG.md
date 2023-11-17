@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.4.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.3.0...v1.4.0) (2023-11-17)
+
+
+### ✨ Features
+
+* add 'responsive' property to Icon component ([d2e6832](https://github.com/HanSeongLee/frontend-quiz-app/commit/d2e6832db7bf751ca294ded0cd839f9dd84ba812))
+* add ToggleButton component ([50c5500](https://github.com/HanSeongLee/frontend-quiz-app/commit/50c5500d4a7307f6d7bf2eaf2d8e604bc6fa0d5e))
+
+
+### 🐛 Bug Fixes
+
+* update desktop breakpoint ([d17eabd](https://github.com/HanSeongLee/frontend-quiz-app/commit/d17eabdc1f9907e2c82016ddb5a843fac362ca9d))
+
 ## [1.3.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.2.0...v1.3.0) (2023-11-16)
 
 

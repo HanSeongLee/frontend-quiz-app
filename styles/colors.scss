@@ -10,8 +10,22 @@
   --color-pure-white: #FFFFFF;
 
   --theme-color-primary: var(--color-purple);
-  --theme-color-secondary: var(--color-dark-navy);
-  --theme-color-neutral: var(--color-light-grey);
   --theme-color-success: var(--color-green);
   --theme-color-danger: var(--color-red);
+
+  &.light {
+    --theme-color-secondary: var(--color-dark-navy);
+    --theme-color-neutral: var(--color-grey-navy);
+    --theme-color-background: var(--color-light-grey);
+    --theme-color-box: var(--color-pure-white);
+    --theme-box-shadow: 0 16px 40px 0 rgba(143, 160, 193, 0.14);
+  }
+
+  &.dark {
+    --theme-color-secondary: var(--color-pure-white);
+    --theme-color-neutral: var(--color-light-bluish);
+    --theme-color-background: var(--color-dark-navy);
+    --theme-color-box: var(--color-navy);
+    --theme-box-shadow: 0 16px 40px 0 rgba(49, 62, 81, 0.14);
+  }
 }

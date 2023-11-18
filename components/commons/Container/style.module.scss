@@ -1,0 +1,15 @@
+@import "styles/utils";
+
+.container {
+  max-width: 327px;
+  width: 100%;
+  margin: 0 auto;
+
+  @include media(">tablet") {
+    max-width: 640px;
+  }
+
+  @include media(">desktop") {
+    max-width: 1157px;
+  }
+}

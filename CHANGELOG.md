@@ -1,5 +1,18 @@
 # 🚦 CHANGELOG
 
+## [1.5.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.4.0...v1.5.0) (2023-11-18)
+
+
+### ✨ Features
+
+* add Container component ([353c375](https://github.com/HanSeongLee/frontend-quiz-app/commit/353c37501aa82e4efb69f015aa72fc8608aac260))
+* add theme color variables ([84e9131](https://github.com/HanSeongLee/frontend-quiz-app/commit/84e9131cd7d3f55d1e23e1141bceea545c6c95fe))
+
+
+### 🐛 Bug Fixes
+
+* add Rubik font to Storybook ([d3b212e](https://github.com/HanSeongLee/frontend-quiz-app/commit/d3b212ea4878bedc564b99811ccefbb02508b243))
+
 ## [1.4.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.3.0...v1.4.0) (2023-11-17)
 
 

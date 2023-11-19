@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.6.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.5.0...v1.6.0) (2023-11-19)
+
+
+### ✨ Features
+
+* add ThemeContext ([23f7657](https://github.com/HanSeongLee/frontend-quiz-app/commit/23f765752ad39bc7548be2e45f48b2a832f9205b))
+
 ## [1.5.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.4.0...v1.5.0) (2023-11-18)
 
 

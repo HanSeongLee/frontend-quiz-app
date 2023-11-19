@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import { Rubik } from '@next/font/google';
+import { ThemeContextWrapper } from 'lib/ThemeContext';
 
 const rubikFont = Rubik({
   weight: ['300', '400', '500'],
@@ -15,7 +16,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         --rubik-font: ${rubikFont.style.fontFamily};
       }
     `}</style>
-    <Component {...pageProps} />
+    <ThemeContextWrapper>
+      <Component {...pageProps} />
+    </ThemeContextWrapper>
   </>;
 }
 

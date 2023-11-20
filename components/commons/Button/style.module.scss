@@ -34,4 +34,104 @@
       }
     }
   }
+
+  &.selection {
+    @include HeadingS;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: left;
+    color: var(--theme-color-secondary);
+    background-color: var(--theme-color-box);
+    box-shadow: var(--theme-box-shadow);
+    border-radius: 12px;
+    padding: 12px;
+
+    @include media(">tablet") {
+      gap: 32px;
+      border-radius: 24px;
+    }
+
+    @include media(">desktop") {
+      padding: 20px;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      color: var(--color-grey-navy);
+      background-color: var(--color-light-grey);
+      justify-content: center;
+      border-radius: 12px;
+
+      @include media(">tablet") {
+        width: 56px;
+        height: 56px;
+      }
+
+      &.default::before {
+        content: counter(selectionGroup, upper-alpha);
+        counter-increment: selectionGroup;
+      }
+
+      &.html {
+        background-color: #FFF1E9;
+      }
+
+      &.css {
+        background-color: #E0FDEF;
+      }
+
+      &.javascript {
+        background-color: #EBF0FF;
+      }
+
+      &.accessibility {
+        background-color: #F6E7FF;
+      }
+    }
+  }
+
+  &.active, &.success, &.error {
+    outline: 3px solid;
+
+    .icon {
+      color: var(--color-pure-white);
+    }
+  }
+
+  &.active {
+    outline-color: var(--theme-color-primary);
+
+    .icon {
+      background-color: var(--theme-color-primary);
+    }
+  }
+
+  &.success {
+    position: relative;
+    outline-color: var(--theme-color-success);
+
+    .icon {
+      background-color: var(--theme-color-success);
+    }
+  }
+
+  &.error {
+    outline-color: var(--theme-color-danger);
+
+    .icon {
+      background-color: var(--theme-color-danger);
+    }
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

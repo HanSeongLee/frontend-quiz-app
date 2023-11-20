@@ -20,3 +20,19 @@ export const Primary: Story = {
         variant: 'primary',
     },
 };
+
+export const Selection: Story = {
+    args: {
+        children: '4.5 : 1',
+        variant: 'selection',
+    },
+};
+
+export const SelectionLink: Story = {
+    args: {
+        children: 'HTML',
+        variant: 'selection',
+        href: '#html',
+        preIcon: 'html',
+    },
+};

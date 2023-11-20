@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.7.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.6.0...v1.7.0) (2023-11-20)
+
+
+### ✨ Features
+
+* update Button component ([02155c5](https://github.com/HanSeongLee/frontend-quiz-app/commit/02155c5504622b8fb53013aef3d530b32f8c85b0))
+
 ## [1.6.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.5.0...v1.6.0) (2023-11-19)
 
 

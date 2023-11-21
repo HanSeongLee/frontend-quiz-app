@@ -1,0 +1,12 @@
+@import "styles/utils";
+
+.selectionGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  counter-reset: selectionGroup;
+
+  @include media(">tablet") {
+    gap: 24px;
+  }
+}

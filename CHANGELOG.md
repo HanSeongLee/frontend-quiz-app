@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.8.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.7.0...v1.8.0) (2023-11-21)
+
+
+### ✨ Features
+
+* add SelectionGroup component ([a9d5f4a](https://github.com/HanSeongLee/frontend-quiz-app/commit/a9d5f4a5973246655cf1b77981b0214075eb8596))
+
+
+### 🐛 Bug Fixes
+
+* correct text alignment in Button component ([1e52fdc](https://github.com/HanSeongLee/frontend-quiz-app/commit/1e52fdc14bbadfed548179ed2706c43e2bd384db))
+
 ## [1.7.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.6.0...v1.7.0) (2023-11-20)
 
 

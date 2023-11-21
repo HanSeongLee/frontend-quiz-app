@@ -93,6 +93,12 @@
         background-color: #F6E7FF;
       }
     }
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
 
   &.active, &.success, &.error {
@@ -130,8 +136,5 @@
 
   .content {
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 }

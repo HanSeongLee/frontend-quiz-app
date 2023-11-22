@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.9.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.8.0...v1.9.0) (2023-11-22)
+
+
+### ✨ Features
+
+* add ThemeToggleContainer ([669dd22](https://github.com/HanSeongLee/frontend-quiz-app/commit/669dd2260dd8071882875184b8af12b0cb1698e0))
+
 ## [1.8.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.7.0...v1.8.0) (2023-11-21)
 
 

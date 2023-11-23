@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.10.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.9.0...v1.10.0) (2023-11-23)
+
+
+### ✨ Features
+
+* add useTimer hook ([48c29b6](https://github.com/HanSeongLee/frontend-quiz-app/commit/48c29b6c592f8b4b6d2a0a90fc5a665518c70653))
+
 ## [1.9.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.8.0...v1.9.0) (2023-11-22)
 
 

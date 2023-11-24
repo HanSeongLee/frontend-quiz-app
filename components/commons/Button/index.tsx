@@ -4,11 +4,12 @@ import cn from 'classnames';
 import Icon from 'components/commons/Icon';
 import { IconName } from 'constants/Icons';
 import Link from 'next/link';
+import { QuizIconName } from 'types/quiz';
 
 interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant: 'primary' | 'selection';
     href?: string;
-    preIcon?: 'html' | 'css' | 'javascript' | 'accessibility';
+    preIcon?: QuizIconName;
     postIcon?: IconName;
     state?: 'active' | 'success' | 'error';
 }

@@ -1,0 +1,12 @@
+@import "styles/utils";
+
+.quizList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+
+  @include media(">tablet") {
+    gap: 24px;
+  }
+}

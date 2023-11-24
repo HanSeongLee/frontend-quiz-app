@@ -1,5 +1,14 @@
 # 🚦 CHANGELOG
 
+## [1.11.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.10.0...v1.11.0) (2023-11-24)
+
+
+### ✨ Features
+
+* add ProgressBar component ([5df5c2b](https://github.com/HanSeongLee/frontend-quiz-app/commit/5df5c2bcd18898e77a07287658af1adbc9c004a7))
+* add quiz data file and quiz types ([2f94b45](https://github.com/HanSeongLee/frontend-quiz-app/commit/2f94b450acd2d2491548c5f9f8c9ab9d6a3c92f8))
+* add QuizList component ([501ba94](https://github.com/HanSeongLee/frontend-quiz-app/commit/501ba9412451fbc99197121420026878fcd86a15))
+
 ## [1.10.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.9.0...v1.10.0) (2023-11-23)
 
 

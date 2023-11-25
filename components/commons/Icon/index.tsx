@@ -1,12 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 import styles from './style.module.scss';
 import cn from 'classnames';
-import { IconName, ICONS } from 'constants/Icons';
+import { ICONS } from 'constants/Icons';
+import { IIcon } from 'types/icon';
 
-interface IProps extends HTMLAttributes<HTMLDivElement> {
-    name: IconName;
-    size?: 'small' | 'medium' | 'large' | 'xlarge';
-    responsive?: boolean;
+interface IProps extends HTMLAttributes<HTMLDivElement>, IIcon {
+
 }
 
 const Icon: React.FC<IProps> = ({

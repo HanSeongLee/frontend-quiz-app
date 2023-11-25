@@ -1,0 +1,43 @@
+@import "styles/utils";
+
+.iconBlock {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--color-grey-navy);
+  background-color: var(--color-light-grey);
+  justify-content: center;
+  border-radius: 8px;
+
+  @include media(">tablet") {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+  }
+
+  @include media(">desktop") {
+    border-radius: 8px;
+  }
+
+  &.counter::before {
+    content: counter(selectionGroup, upper-alpha);
+    counter-increment: selectionGroup;
+  }
+
+  &.html {
+    background-color: #FFF1E9;
+  }
+
+  &.css {
+    background-color: #E0FDEF;
+  }
+
+  &.javascript {
+    background-color: #EBF0FF;
+  }
+
+  &.accessibility {
+    background-color: #F6E7FF;
+  }
+}

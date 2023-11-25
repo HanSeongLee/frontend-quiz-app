@@ -5,6 +5,7 @@ import Icon from 'components/commons/Icon';
 import { IconName } from 'constants/Icons';
 import Link from 'next/link';
 import { QuizIconName } from 'types/quiz';
+import Block from 'components/Block';
 
 interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant: 'primary' | 'selection';
@@ -31,38 +32,13 @@ const Button: React.FC<IProps> = ({
                 {...props}
         >
             {variant === 'selection' && (
-                <span className={cn(styles.icon, {
-                    [styles.default]: !preIcon,
-                    [styles.html]: preIcon === 'html',
-                    [styles.css]: preIcon === 'css',
-                    [styles.javascript]: preIcon === 'javascript',
-                    [styles.accessibility]: preIcon === 'accessibility',
-                })}
-                >
-                    {preIcon && (
-                        preIcon === 'html' ? (
-                            <Icon name={IconName.HTML}
-                                  size={'xlarge'}
-                                  responsive
-                            />
-                        ) : preIcon === 'css' ? (
-                            <Icon name={IconName.CSS}
-                                  size={'xlarge'}
-                                  responsive
-                            />
-                        ) : preIcon === 'javascript' ? (
-                            <Icon name={IconName.JS}
-                                  size={'xlarge'}
-                                  responsive
-                            />
-                        ) : preIcon === 'accessibility' ? (
-                            <Icon name={IconName.ACCESSIBILITY}
-                                  size={'xlarge'}
-                                  responsive
-                            />
-                        ) : null
-                    )}
-                </span>
+                <Block icon={preIcon ? {
+                    name: preIcon as IconName,
+                    size: 'xlarge',
+                    responsive: true,
+                } : undefined}
+                       counter={!preIcon}
+                />
             )}
             <div className={styles.content}>
                 {children}

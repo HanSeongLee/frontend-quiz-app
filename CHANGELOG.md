@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.12.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.11.0...v1.12.0) (2023-11-25)
+
+
+### ✨ Features
+
+* add Block component ([e6fab8f](https://github.com/HanSeongLee/frontend-quiz-app/commit/e6fab8f43739824fa753236f7c3ae1fcbc9ccfe7))
+
+
+### ♻️ Refactor
+
+* add IIcon interface ([5c10909](https://github.com/HanSeongLee/frontend-quiz-app/commit/5c109091f4643edff9cf4a33ad655fb6466b1ca9))
+
 ## [1.11.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.10.0...v1.11.0) (2023-11-24)
 
 

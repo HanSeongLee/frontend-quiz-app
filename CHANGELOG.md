@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.14.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.13.0...v1.14.0) (2023-11-27)
+
+
+### ✨ Features
+
+* add Header component ([5d30571](https://github.com/HanSeongLee/frontend-quiz-app/commit/5d30571eef7a8fc03c6d3d0cb8ce3eed6ed845af))
+
 ## [1.13.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.12.0...v1.13.0) (2023-11-26)
 
 

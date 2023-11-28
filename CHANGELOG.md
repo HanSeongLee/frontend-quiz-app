@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.15.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.14.0...v1.15.0) (2023-11-28)
+
+
+### ✨ Features
+
+* add QuizBoard component ([8140322](https://github.com/HanSeongLee/frontend-quiz-app/commit/8140322fc68f8b1a15093ffa0c857e60028c77f7))
+
 ## [1.14.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.13.0...v1.14.0) (2023-11-27)
 
 

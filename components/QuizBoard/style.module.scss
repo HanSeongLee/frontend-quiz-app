@@ -1,0 +1,67 @@
+@import "styles/utils";
+
+.quizQuestion {
+
+  @include media(">desktop") {
+    display: flex;
+    justify-content: space-between;
+    gap: 131px;
+  }
+
+  .head {
+    position: relative;
+  }
+
+  .subtitle {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    @include media(">tablet") {
+      margin-bottom: 27px;
+    }
+  }
+
+  .title {
+    margin-bottom: 24px;
+
+    @include media(">tablet") {
+      margin-bottom: 40px;
+    }
+  }
+
+  .progressBar {
+    margin-bottom: 40px;
+
+    @include media(">tablet") {
+      margin-bottom: 64px;
+    }
+
+    @include media(">desktop") {
+      position: absolute;
+      top: 436px;
+      left: 0;
+    }
+  }
+
+  .selectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include media(">tablet") {
+      gap: 32px;
+    }
+
+    @include media(">desktop") {
+      max-width: 564px;
+      width: 100%;
+    }
+  }
+
+  .errorMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}

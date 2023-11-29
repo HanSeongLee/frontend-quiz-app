@@ -1,0 +1,24 @@
+@import "styles/utils";
+
+.main {
+
+  .container {
+
+    @include media(">desktop") {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .title {
+    margin-bottom: 16px;
+
+    @include media(">desktop") {
+      margin-bottom: 48px;
+    }
+  }
+
+  .description {
+    margin-bottom: 40px;
+  }
+}

@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.16.1](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.16.0...v1.16.1) (2023-11-29)
+
+
+### 🐛 Bug Fixes
+
+* correct Storybook for main page ([36f467b](https://github.com/HanSeongLee/frontend-quiz-app/commit/36f467b80442d68902ea52bce6e2a55a053dfb3e))
+
 ## [1.16.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.15.0...v1.16.0) (2023-11-29)
 
 

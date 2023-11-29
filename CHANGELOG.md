@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.16.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.15.0...v1.16.0) (2023-11-29)
+
+
+### ✨ Features
+
+* add main page ([a81c2e1](https://github.com/HanSeongLee/frontend-quiz-app/commit/a81c2e1b42ac7232785314a8e73c9318d6f8049c))
+
 ## [1.15.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.14.0...v1.15.0) (2023-11-28)
 
 

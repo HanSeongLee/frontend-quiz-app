@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.17.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.16.1...v1.17.0) (2023-11-30)
+
+
+### ✨ Features
+
+* add QuizBoardContainer ([a92e259](https://github.com/HanSeongLee/frontend-quiz-app/commit/a92e259f47d2be672d1b397885aeac9252d588ca))
+
 ## [1.16.1](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.16.0...v1.16.1) (2023-11-29)
 
 

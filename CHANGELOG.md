@@ -1,5 +1,17 @@
 # 🚦 CHANGELOG
 
+## [1.18.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.17.0...v1.18.0) (2023-12-01)
+
+
+### ✨ Features
+
+* add quizzes page ([b95ce37](https://github.com/HanSeongLee/frontend-quiz-app/commit/b95ce377c4a56aa98c34b7f7efa2820b1b94bc54))
+
+
+### 🐛 Bug Fixes
+
+* correct type in QuizList component ([06359a2](https://github.com/HanSeongLee/frontend-quiz-app/commit/06359a2a814c35faf6dc30398c6030df4de79c37))
+
 ## [1.17.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.16.1...v1.17.0) (2023-11-30)
 
 

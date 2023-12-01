@@ -5,7 +5,7 @@ import { Quiz } from 'types/quiz';
 import Button from 'components/commons/Button';
 
 interface IProps extends HTMLAttributes<HTMLUListElement>{
-    quizzes: Quiz[];
+    quizzes: Omit<Quiz, 'questions'>[];
 }
 
 const QuizList: React.FC<IProps> = ({ quizzes, className, ...props}) => {
@@ -17,7 +17,7 @@ const QuizList: React.FC<IProps> = ({ quizzes, className, ...props}) => {
                 <li key={title}>
                     <Button variant={'selection'}
                             preIcon={icon}
-                            href={`/${title.toLowerCase()}`}
+                            href={`/quizzes/${title.toLowerCase()}`}
                     >
                         {title}
                     </Button>

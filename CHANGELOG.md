@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.19.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.18.0...v1.19.0) (2023-12-02)
+
+
+### ✨ Features
+
+* add QuizResult component ([79c8798](https://github.com/HanSeongLee/frontend-quiz-app/commit/79c87981ae97920ee933db8b7e80830dda5bc5d1))
+
 ## [1.18.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.17.0...v1.18.0) (2023-12-01)
 
 

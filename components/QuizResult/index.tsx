@@ -5,10 +5,11 @@ import Title from 'components/commons/Typography/Title';
 import Text from 'components/commons/Typography/Text';
 import Button from 'components/commons/Button';
 import QuizTitle from 'components/QuizTitle';
+import { QuizIconName } from 'types/quiz';
 import { IconName } from 'constants/Icons';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
-    iconName: IconName;
+    iconName: QuizIconName;
     title: string;
     score: number;
     maxScore: number;
@@ -30,7 +31,7 @@ const QuizResult: React.FC<IProps> = ({
 
             <div>
                 <div className={styles.scoreBoard}>
-                    <QuizTitle iconName={iconName}>
+                    <QuizTitle iconName={iconName as IconName}>
                         {title}
                     </QuizTitle>
                     <div className={styles.scoreContainer}>

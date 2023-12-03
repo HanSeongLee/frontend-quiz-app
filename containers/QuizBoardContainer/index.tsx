@@ -2,6 +2,7 @@ import React, { HTMLAttributes, useEffect, useState } from 'react';
 import { Quiz } from 'types/quiz';
 import QuizBoard from 'components/QuizBoard';
 import useTimer from 'lib/useTimer';
+import QuizResult from 'components/QuizResult';
 
 interface IProps extends HTMLAttributes<HTMLDivElement> {
     quiz: Quiz;
@@ -13,6 +14,7 @@ const QuizBoardContainer: React.FC<IProps> = ({ quiz, ...props }) => {
     const [showResult, setShowResult] = useState<boolean>(false);
     const [selected, setSelected] = useState<string>('');
     const [error, setError] = useState<string>('');
+    const [score, setScore] = useState<number>(0);
     const {
         time, isRunning, start, stop, reset,
     } = useTimer(initialTime);
@@ -24,6 +26,18 @@ const QuizBoardContainer: React.FC<IProps> = ({ quiz, ...props }) => {
         if (error) {
             setError('');
         }
+    };
+
+    const handlePlayAgain = () => {
+        setCurrentQuestionNumber(0);
+        setSelected('');
+        setScore(0)
+        setError('');
+        setShowResult(false);
+        reset();
+        setTimeout(() => {
+            start();
+        }, 300);
     };
 
     const handleSubmit = () => {
@@ -44,6 +58,9 @@ const QuizBoardContainer: React.FC<IProps> = ({ quiz, ...props }) => {
             return;
         }
 
+        if (selected === quiz.questions[currentQuestionNumber].answer) {
+            setScore(score + 1);
+        }
         setShowResult(true);
         stop();
     };
@@ -61,7 +78,8 @@ const QuizBoardContainer: React.FC<IProps> = ({ quiz, ...props }) => {
 
     return (
         <div {...props}>
-            <QuizBoard question={quiz.questions[currentQuestionNumber]}
+            {currentQuestionNumber < quiz.questions.length ? (
+                <QuizBoard question={quiz.questions[currentQuestionNumber]}
                        initialTime={initialTime}
                        time={time}
                        currentQuestionNumber={currentQuestionNumber}
@@ -71,6 +89,14 @@ const QuizBoardContainer: React.FC<IProps> = ({ quiz, ...props }) => {
                        onChange={handleChange}
                        onSubmit={handleSubmit}
             />
+            ) : (
+                <QuizResult iconName={quiz.icon}
+                            title={quiz.title}
+                            score={score}
+                            maxScore={10}
+                            onPlayAgain={handlePlayAgain}
+                />
+            )}
         </div>
     );
 };

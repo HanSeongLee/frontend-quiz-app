@@ -15,7 +15,7 @@ interface IProps {
 
 const Home = ({ quizzes }: InferGetStaticPropsType<typeof getStaticProps>) => {
     return (
-        <>
+        <div className={styles.home}>
             <Header />
             <main className={styles.main}>
                 <Container className={styles.container}>
@@ -43,7 +43,7 @@ const Home = ({ quizzes }: InferGetStaticPropsType<typeof getStaticProps>) => {
                     <QuizList quizzes={quizzes} />
                 </Container>
             </main>
-        </>
+        </div>
     );
 }
 

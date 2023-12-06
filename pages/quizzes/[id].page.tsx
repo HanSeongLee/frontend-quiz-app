@@ -1,4 +1,5 @@
 import type { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'
+import styles from './styles.module.scss';
 import Container from 'components/commons/Container';
 import data from 'data/data.json';
 import { Quiz } from 'types/quiz';
@@ -12,7 +13,7 @@ interface IProps {
 
 const QuizzePage = ({ quiz }: InferGetStaticPropsType<typeof getStaticProps>) => {
     return (
-        <>
+        <div className={styles.quizzes}>
             <Header iconName={quiz.icon as IconName}
                     title={quiz.title}
             />
@@ -21,7 +22,7 @@ const QuizzePage = ({ quiz }: InferGetStaticPropsType<typeof getStaticProps>) =>
                     <QuizBoardContainer quiz={quiz} />
                 </Container>
             </main>
-        </>
+        </div>
     );
 }
 

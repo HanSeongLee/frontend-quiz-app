@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.20.1](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.20.0...v1.20.1) (2023-12-06)
+
+
+### 🐛 Bug Fixes
+
+* add min-height to pages ([3b335f9](https://github.com/HanSeongLee/frontend-quiz-app/commit/3b335f998a8b6c721f2dbd27301668590f49c386))
+
 ## [1.20.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.19.0...v1.20.0) (2023-12-03)
 
 

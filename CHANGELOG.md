@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.21.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.20.1...v1.21.0) (2023-12-07)
+
+
+### ✨ Features
+
+* add Layout component ([0fdcdf6](https://github.com/HanSeongLee/frontend-quiz-app/commit/0fdcdf6c29993705429a171f556c54672b08832e))
+
 ## [1.20.1](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.20.0...v1.20.1) (2023-12-06)
 
 

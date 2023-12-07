@@ -1,0 +1,56 @@
+@import "styles/utils";
+
+.layout {
+  position: relative;
+  min-height: 812px;
+  overflow: hidden;
+
+  @include media(">tablet") {
+    min-height: 1024px;
+  }
+
+  @include media(">desktop") {
+    min-height: 100vh;
+    height: 960px;
+  }
+
+  &::before {
+    position: absolute;
+    top: -165px;
+    right: 0;
+    width: 977px;
+    height: 977px;
+    background: url("/background-circle.svg") no-repeat;
+    content: '';
+
+    @include media(">tablet") {
+      top: -446px;
+      left: -539px
+    }
+
+    @include media(">desktop") {
+      top: -413px;
+      left: -539px
+    }
+  }
+
+  &::after {
+    position: absolute;
+    bottom: -369px;
+    right: -437px;
+    width: 977px;
+    height: 977px;
+    display: none;
+    background: url("/background-circle.svg") no-repeat;
+    content: '';
+
+    @include media(">desktop") {
+      display: block;
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+}

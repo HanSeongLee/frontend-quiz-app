@@ -14,6 +14,7 @@
   --theme-color-danger: var(--color-red);
 
   &.light {
+    --theme-background: url("/background-circle-light.svg");
     --theme-color-secondary: var(--color-dark-navy);
     --theme-color-neutral: var(--color-grey-navy);
     --theme-color-background: var(--color-light-grey);
@@ -22,6 +23,7 @@
   }
 
   &.dark {
+    --theme-background: url("/background-circle-dark.svg");
     --theme-color-secondary: var(--color-pure-white);
     --theme-color-neutral: var(--color-light-bluish);
     --theme-color-background: var(--color-dark-navy);

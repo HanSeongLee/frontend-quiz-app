@@ -20,7 +20,7 @@
     right: 0;
     width: 977px;
     height: 977px;
-    background: url("/background-circle.svg") no-repeat;
+    background: var(--theme-background) no-repeat;
     content: '';
 
     @include media(">tablet") {
@@ -41,7 +41,7 @@
     width: 977px;
     height: 977px;
     display: none;
-    background: url("/background-circle.svg") no-repeat;
+    background: var(--theme-background) no-repeat;
     content: '';
 
     @include media(">desktop") {

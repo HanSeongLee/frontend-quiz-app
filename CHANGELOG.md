@@ -1,5 +1,13 @@
 # 🚦 CHANGELOG
 
+## [1.22.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.21.0...v1.22.0) (2023-12-09)
+
+
+### ✨ Features
+
+* add dark mode background to Layout component ([21e30d2](https://github.com/HanSeongLee/frontend-quiz-app/commit/21e30d273690048f33b931e4a8f6dad0f4fb90b0))
+* add Storybook for Layout component ([50a2494](https://github.com/HanSeongLee/frontend-quiz-app/commit/50a24948f7be556e5d94c89729d5e4637bd1212d))
+
 ## [1.21.0](https://github.com/HanSeongLee/frontend-quiz-app/compare/v1.20.1...v1.21.0) (2023-12-07)
 
 

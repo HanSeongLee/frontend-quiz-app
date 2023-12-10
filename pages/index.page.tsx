@@ -8,6 +8,7 @@ import data from 'data/data.json';
 import { Quiz } from 'types/quiz';
 import QuizList from 'components/QuizList';
 import Header from 'components/commons/Header';
+import Layout from 'components/commons/Layout';
 
 interface IProps {
     quizzes: Quiz[];
@@ -15,7 +16,7 @@ interface IProps {
 
 const Home = ({ quizzes }: InferGetStaticPropsType<typeof getStaticProps>) => {
     return (
-        <div className={styles.home}>
+        <Layout>
             <Header />
             <main className={styles.main}>
                 <Container className={styles.container}>
@@ -43,7 +44,7 @@ const Home = ({ quizzes }: InferGetStaticPropsType<typeof getStaticProps>) => {
                     <QuizList quizzes={quizzes} />
                 </Container>
             </main>
-        </div>
+        </Layout>
     );
 }
 

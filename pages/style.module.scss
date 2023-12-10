@@ -1,17 +1,5 @@
 @import "styles/utils";
 
-.home {
-  min-height: 812px;
-
-  @include media(">tablet") {
-    min-height: 1024px;
-  }
-
-  @include media(">desktop") {
-    min-height: 960px;
-  }
-}
-
 .main {
 
   .container {
